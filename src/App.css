@@ -1,0 +1,36 @@
+
+.App {
+    text-align: left;
+    border: 1px solid black;
+    padding: 2rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto
+  }
+  
+  .comments-container {
+    width: 60%;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    justify-content: left;
+    display: flex;
+  }
+  
+  .reply-buttons { 
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    margin-top: 10px;
+  }
+
+  .navbar {
+    height: 80px;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
